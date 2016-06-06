@@ -1,10 +1,12 @@
 var fs = require('fs');
-console.log('this is loaded');
 
 var action = process.argv[2];
 var search = process.argv[3];
 
 switch (action) {
+    case undefined:
+        console.log("Search options are: spotify-this-song, movie-this, my-tweets or do-what-it-says");
+        break;
     case 'spotify-this-song':
         spotifySearch();
         break;
@@ -82,9 +84,21 @@ function movieSearch() {
 
 // shows your last 20 tweets and when they were created at in the terminal
 function tweetSearch() {
+    var Twitter = require('twitter');
+    var key = require('./key.js');
+    var Tweets = new Twitter(key.twitterKeys);
 
+    var params = {screen_name: 'nodejs', count: 20};
+    Tweets.get('statuses/user_timeline', params, function(error, tweets, response){
+      if (!error) {
+        for (var i = 0; i < tweets.length; i++) {
+            console.log(tweets[i].created_at + " || " + tweets[i].text);
+            console.log('--------------------------------------------------------------');
+        }
+      }
+    });
 }
 // Using the fs package in node, the program would take the text inside of random.txt and use it to call the first command with the second part as it's parameter
 function whateverYouSay() {
-    
+
 }
