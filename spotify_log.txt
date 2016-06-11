@@ -1,0 +1,26 @@
+{
+	"Artist(s)": "blink-182",
+	"Song Name": "Bored To Death",
+	"Preview Link": "https://p.scdn.co/mp3-preview/13f82f458b569c585cbe2d8a1bd04b1d802edcbb",
+	"Album": "Bored To Death"
+}{
+	"Artist(s)": "Adele",
+	"Song Name": "Hello",
+	"Preview Link": "https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4",
+	"Album": "Hello"
+}[object Object]{
+	"Artist(s)": "blink-182",
+	"Song Name": "What's My Age Again?",
+	"Preview Link": "https://p.scdn.co/mp3-preview/51b3254f8c1f6d0d8839227f37e82a1a62a27260",
+	"Album": "Enema Of The State (Explicit Version)"
+}{
+	"Artist(s)": "Adele",
+	"Song Name": "Hello",
+	"Preview Link": "https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4",
+	"Album": "Hello"
+}{
+	"Artist(s)": "Adele",
+	"Song Name": "Hello",
+	"Preview Link": "https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4",
+	"Album": "Hello"
+}
